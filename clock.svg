@@ -1,24 +1,24 @@
-<svg width="400px" height="400px" viewBox="0 0 160 160">
+<svg width="510px" height="510px">
 <defs>
-    <g id="short-tick" style="stroke-width: 1.5; stroke: black;">
-        <line x1=" 71" x2=" 79" />
-        <line x1="-71" x2="-79" />
-        <line y1=" 71" y2=" 79" />
-        <line y1="-71" y2="-79" />
-    </g>
+    <g id="short-tick" style="stroke-width: 10; stroke: black;">
+        <line x1=" 221.875" x2=" 247.875" />
+        <line x1="-221.875" x2="-247.875" />
+        <line y1=" 221.875" y2=" 247.875" />
+        <line y1="-221.875" y2="-247.875" />
+    </g>=
 
-    <g id="long-tick" style="stroke-width: 1.5; stroke: black;">
-        <line x1=" 67" x2=" 79" />
-        <line x1="-67" x2="-79" />
-        <line y1=" 67" y2=" 79" />
-        <line y1="-67" y2="-79" />
+    <g id="long-tick" style="stroke-width: 10; stroke: black;">
+        <line x1=" 203" x2=" 247.875" />
+        <line x1="-203" x2="-247.875" />
+        <line y1=" 203" y2=" 247.875" />
+        <line y1="-203" y2="-247.875" />
     </g>
 </defs>
-<g transform="translate(80 80)">
+<g transform="translate(255 255)">
     <use xlink:href="#long-tick" transform="rotate(0)"/>
     <use xlink:href="#long-tick" transform="rotate(30)"/>
     <use xlink:href="#long-tick" transform="rotate(60)"/>
-    
+
     <use xlink:href="#short-tick" transform="rotate( 6)"/>
     <use xlink:href="#short-tick" transform="rotate(12)"/>
     <use xlink:href="#short-tick" transform="rotate(18)"/>
@@ -34,18 +34,18 @@
 </g>
 
 <circle
-    cx="80"
-    cy="80"
-    r="79"
+    cx="255"
+    cy="255"
+    r="250"
     fill="none"
     stroke="black"
-    stroke-width="2"/>
+    stroke-width="6"/>
 
 <circle
-    cx="80"
-    cy="80"
-    r="71"
+    cx="255"
+    cy="255"
+    r="220"
     fill="none"
     stroke="black"
-    stroke-width="2"/>
+    stroke-width="6"/>
 </svg>
